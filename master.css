@@ -1,0 +1,74 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+.Contenitore{
+position: absolute;
+width: 60%;
+margin-left:20%;
+margin-top: 20px;
+margin-bottom: 50px;
+background: rgba(0,0,0,0.5);
+border-radius: 20px;
+}
+
+.Articolo{
+margin-top: 50px;
+margin-bottom: 50px;
+padding-left: 70px;
+padding-right: 70px;
+}
+
+header{
+  text-align: center;
+  font-family: arial;
+  color: lime;
+  font-size: 30px;
+}
+
+.logo{
+  width: 200px;
+}
+
+nav div{ /*Barra di navigazione */
+  text-align: center;
+  content: white;
+  background: lime;
+  padding: 10px;
+}
+
+a{
+   background-color: white;
+   border: solid 1px;
+}
+
+section span{
+   font-family: arial;
+   color: white;
+   display: inline-block;
+}
+
+#orange{
+   background-color: orange;
+   margin-right: 60%;
+   height: 20px;
+   border-radius:4px;
+   border: 0px;
+}
+
+#green{
+   background-color: lime;
+   margin-right: 35%;
+   height: 20px;
+   border-radius: 4px;
+   border: 0px;
+}
+
+#red{
+  background-color: tomato;
+  margin-right: 80%;
+  height: 20px;
+  border-radius: 4px;
+  border: 0px;
+}
